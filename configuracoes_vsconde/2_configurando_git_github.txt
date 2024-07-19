@@ -1,0 +1,28 @@
+criar os acessos no git usando o terminal
+nome do usuario:
+ git config --global user.name "jedson Ferreira"
+
+e-mail do usuario:
+ git config --global user.email "jedazevedo@gmail.com"
+
+mudar o brach para main, o padrão era master
+ git config --global init.defaultBranch main
+
+ 1) iniciar o projeto:
+   git init
+
+2) ssh-keygen
+enter e enter até aparecer a chave publica:
+C:\Users\jed/.ssh/id_rsa.pub
+
+cat C:\Users\jed/.ssh/id_rsa.pub (abrir chave ssh)
+
+3) no github voce procura ssh e coloca newkey
+
+4) git remote add origin git@github.com:Jedazevedo/Django-projeto1.git
+
+
+git@github.com:Jedazevedo/Django-projeto1.git
+
+5) commit direto no github
+initial no "icone" de tranferencia + check
