@@ -1,9 +1,0 @@
-1) para iniciar um projeto
---> django-admin startproject "nome do projeto" .
-
-
-2) iniciar o django
---> python manage.py runserver
-
-3) criar um app
---> python manage.py startapp nome do app
